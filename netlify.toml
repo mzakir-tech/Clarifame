@@ -1,0 +1,6 @@
+[build]
+  command = "npm test && npm run lint && npm run typecheck && npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
